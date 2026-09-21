@@ -1,48 +1,46 @@
 # Mobile Sales Dashboard
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Data Analytics](https://img.shields.io/badge/Data_Analytics-232F3E?style=for-the-badge&logo=google-analytics&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-An interactive Power BI dashboard designed to track and analyze mobile sales performance, revenue trends, customer feedback, and payment distributions across Indian cities.
+An interactive Power BI dashboard for tracking mobile sales performance, revenue trends, customer ratings, and payment mode distributions across Indian cities.
 ---
 ## Dashboard Preview
 ![Mobile Sales Dashboard Preview](./dashboard%20preview.png)
-*All metrics and visuals dynamically update based on the selected month and interactive visual filters.*
+*Metrics and visuals update dynamically based on the selected month filter.*
 ---
 ## Overview
-This dashboard aggregates transaction data to provide high-level insights for sales optimization and inventory management. 
-### Key Performance Indicators (KPIs)
-* **Total Sales:** Gross sales revenue generated.
-* **Total Quantity:** Total number of mobile units sold.
-* **Transactions:** Total count of completed customer orders.
-* **Average Transaction:** Average revenue generated per order.
+This dashboard aggregates transaction data to provide high-level insights for sales optimization and inventory management.
+### Key Performance Indicators
+- **Total Sales**: Gross revenue generated
+- **Total Quantity**: Units of mobile phones sold
+- **Transactions**: Completed order count
+- **Average Transaction**: Revenue generated per order
 ---
-## Core Visualizations
-* **Monthly Filter Slicer:** Allows interactive month-by-month filtering (Jan–Dec) across all report pages.
-* **Geographic Map (Total Sales by City):** Displays sales density across major Indian metropolitan cities.
-* **Sales by Mobile Model:** Highlights top-performing smartphone models by revenue.
-* **Payment Mode Distribution:** Categorizes sales by payment channels (Credit Card, Debit Card, UPI, Cash).
-* **Customer Ratings:** Funnel breakdown of customer feedback from 1 to 5 stars.
-* **Daily & Day-of-Week Trends:** Line and area charts tracking sales quantity and revenue patterns over time.
+## Features & Visualizations
+- **Monthly Filter Slicer**: Filter report metrics month-by-month (Jan–Dec).
+- **Geographic Sales Map**: Revenue distribution across major Indian cities.
+- **Model Performance**: Breakdown of top smartphone models by revenue.
+- **Payment Methods**: Share of transactions across Credit Card, Debit Card, UPI, and Cash.
+- **Customer Ratings**: Feedback distribution from 1 to 5 stars.
+- **Sales Trends**: Daily and day-of-week revenue and volume patterns.
 ---
 ## Tech Stack
-* **Tool:** Power BI Desktop
-* **Language:** DAX (Data Analysis Expressions)
-* **Data Processing:** Power Query Editor
-* **Mapping Engine:** Microsoft Bing Maps
+- Power BI Desktop
+- DAX (Data Analysis Expressions)
+- Power Query Editor
+- Microsoft Bing Maps
 ---
-## Quick Start
-1. **Clone the repository:**
+## Setup & Usage
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Mobile-Sales-Dashboard.git
+   git clone https://github.com/namrahriyazkhan/Mobile_Sales_PowerBI_Dashboard.git
    ```
-2. **Open File:** Launch `Mobile Sales Dashboard.pbix` in Power BI Desktop.
-3. **Interact:** Click any month in the slicer to dynamically filter all visualizations.
+2. Open `Mobile Sales Dashboard.pbix` in Power BI Desktop.
+3. Use the monthly slicer on the left pane to filter data dynamically.
 ---
 ## Repository Structure
 ```dir
 Mobile Sales Dashboard/
 │
-├── dashboard preview.png         # Preview image
-├── Mobile Sales Dashboard.pbix   # Power BI project file
-└── README.md                     # Documentation
+├── dashboard preview.png
+├── Mobile Sales Dashboard.pbix
+└── README.md
 ```
+
