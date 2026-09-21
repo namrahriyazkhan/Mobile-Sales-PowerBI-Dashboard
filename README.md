@@ -1,9 +1,9 @@
 # Mobile Sales Dashboard
-An interactive Power BI dashboard for tracking mobile sales performance, revenue trends, customer ratings, and payment mode distributions across Indian cities.
+### An interactive Power BI dashboard for tracking mobile sales performance, revenue trends, customer ratings, and payment mode distributions across Indian cities.
 ---
 ## Dashboard Preview
 ![Mobile Sales Dashboard Preview](./dashboard%20preview.png)
-*Metrics and visuals update dynamically based on the selected month filter.*
+Metrics and visuals update dynamically based on the selected month filter.
 ---
 ## Overview
 This dashboard aggregates transaction data to provide high-level insights for sales optimization and inventory management.
